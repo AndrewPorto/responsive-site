@@ -140,18 +140,16 @@ footer p {
       padding: 0 30px 0 30px;
       display: flex;
       height: 100px;
-      
+      justify-content: space-between;
     }
 
     header nav ul {
-        position: absolute;
+       
         margin-top: 20px;
-        justify-content: right;
+        text-align: right;
     }
   
-    header nav ul {
-        width: 78%;
-    }
+   
 
     header nav ul li {
         display: inline-block;
